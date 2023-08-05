@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Belanosima&family=Fira+Sans&family=Noto+Sans+Nag+Mundari&family=Poppins:wght@100;400&family=Smokum&display=swap');
+
+*{
+    margin: 0%;
+    padding:0%
+}
+.header{
+    background-image: url(./Multimedia/paramain.avif); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.conteinernavegacion{
+    list-style: none;
+}
+.itemnavegacion{
+    margin: 30px 0;
+}
+.navegar{
+    color:#00425A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 4px;
+}
+.itemnavegacion > a:hover{
+    background-color:white;
+}
+.titulo{
+    text-align: center;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color:#00425A
+}
+h2{
+    color: #FC7300;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+}
+.card{
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    margin: 0 20px;
+}
+.cardimg{
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+}
+.cardpropuesta{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+h3{
+    color:#1F8A70 ;
+}
+body{
+    background-color: #EFF5F5;
+}
+.footer{
+    display: flex;
+    background-color:#00425A;
+}
+.escuela{
+    margin-left: 35%;
+}
+.tel{
+    margin-left: 35%;
+}
+.pie{
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.maps{
+    padding-top: 15px;
+}
+.log{
+    padding-top: 15px;
+}
+.cardimg2{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+.cardimg:hover{
+    scale: 1.10;
+}
+.icon{
+    list-style: none;
+}
+.carddescription{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+@media screen and (max-width: 320px){
+ .card{
+    display: grid;
+    grid-template-columns: 1;
+ }
+ .footer{
+    display: grid;
+    grid-template-columns: 1;
+ }
+ .titulo{
+    display: none;
+ }
+}
+@media screen and (max-width: 768px){
+    .card{
+       display: grid;
+       grid-template-columns: 1;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1;
+     }
+     .redes{
+        text-align: center;
+     }
+   }
+
+

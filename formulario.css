@@ -1,0 +1,47 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Belanosima&family=Fira+Sans&family=Noto+Sans+Nag+Mundari&family=Poppins:wght@100&family=Smokum&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    width: 400px;
+    background-color:#1F8A70;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Belanosima', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    margin-top: 13px;
+}
+.form h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.form h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.control{
+    width: 100%;
+    background: #EFF5F5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rebeccapurple;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 18px;
+}
+.boton{
+    width: 100%;
+    background: white;
+    border: none;
+    padding: 12px;
+    color:  #1F8A70;
+    margin: 16px 0;
+    font-size: 16px;
+}
